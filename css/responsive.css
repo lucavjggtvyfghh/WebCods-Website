@@ -4,6 +4,9 @@
   	float: none;
   	padding: 5px;
   }
+  .navigation li > div {
+  	position: static;
+  }
   .sidebar {
  	  padding: 2%;
  	  border-right: 1px solid #eee;
@@ -14,7 +17,9 @@
   #footer .section {
    	float: none;
   }
-   
+  body {
+  	overflow-x: hidden;
+  }
 }
 /*MOBILE*/
 /*
