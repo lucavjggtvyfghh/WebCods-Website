@@ -28,6 +28,10 @@
   .navigation li > div {
     position: static;
   }
+  /*To fix click icon at same place on menu toggle.*/
+  .navigation {
+    position: relative;
+  }
   /*Responsive Menu Ends*/
 
   #header {
