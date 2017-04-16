@@ -1,6 +1,26 @@
 /*MOBILE*/
-
 @media only screen and (max-width: 480px) {
+
+  /*Responsive menu starts*/
+
+  /*Hide all the menu lists except the menu click icon*/
+  ul li:not(.icon) {display: none;}
+  /* Display click icon to top left.*/
+  ul.responsive li.icon {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /*Display li vertically*/
+  ul.responsive li:not(.icon) {
+    display: block;
+  }
+  /*Add space to left when menu is expanded.*/
+  .navigation.responsive {
+    padding-left: 10%;
+  }
   .navbar-nav li {
     float: none;
     padding: 5px;
@@ -8,11 +28,12 @@
   .navigation li > div {
     position: static;
   }
+  /*Responsive Menu Ends*/
+
   #header {
     padding-top: 0;
-    background: #555884 url(../images/navbg.jpg);
+    background: #555884 url(../images/navbg.jpg); 
   }
-
   /*HOme page*/
   #adbox {
     padding-top: 0;
@@ -57,9 +78,13 @@
   body {
     overflow-x: hidden;
   }
+
 }
 
 /*TABLETS*/
 @media only screen and (max-width: 768px) {
   
 }
+
+
+

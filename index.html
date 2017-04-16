@@ -6,9 +6,13 @@
 	<title>WebCods Solution & Consultancy Services</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
-    <meta name="author" content="UMANG JANGID" />
+    
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/responsive.css" type="text/css">
+	<!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/responsive.css" type="text/css">
+	<script src="js/responsive.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -16,7 +20,7 @@
 		<div class="centerer">
 		<div class="clearfix">
 			
-			<ul class="navigation navbar-nav">
+			<ul class="navigation navbar-nav" id="menu">
 				<li class="active">
 					<a href="index.html" class="button">Home</a>
 				</li>
@@ -45,6 +49,7 @@
 				<li>
 					<a class="button" href="registration/registration.html">Registration</a>
 				</li>
+				<li class="icon"><a href="#" onclick="responsiveMenuToggle()">☰</a></li>
 				
 				</ul>
 		</div>
