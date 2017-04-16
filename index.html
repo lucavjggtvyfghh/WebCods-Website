@@ -8,6 +8,30 @@
     <meta name="description" content="" />
     <meta name="author" content="UMANG JANGID" />
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css">
+	<style>
+	@media only screen and (max-width: 480px) {
+		.testimonial {
+		  float: none;
+		}
+		/*Home page Why choose us section.*/
+	  .featured li {
+	    float: none;
+	  }
+	  .featured {
+	  	padding-left: 20px;
+	  }
+	  .featured li p, .small-intro {
+	  	width: 320px;
+	  }
+	  .small-intro, .highlight h1 {
+	  	padding-left: 20px;
+	  	padding-right: 20px
+	  }
+
+	}
+	
+	</style>
 </head>
 <body>
 	<div id="header">
@@ -15,7 +39,7 @@
 		<div class="centerer">
 		<div class="clearfix">
 			
-			<ul class="navigation">
+			<ul class="navigation navbar-nav">
 				<li class="active">
 					<a href="index.html" class="button">Home</a>
 				</li>
@@ -72,7 +96,7 @@
 					<span>-Team WebCods</span>
 				</div>
 				<h1>A Small Intro...</h1>
-				<p>
+				<p class="small-intro">
 				Our goal is to help sustain your growth for long term benefits.
 				Our 'ON TIME AND ON TARGET, WITHIN BUDGET' policy makes the foundation of our company.
 				We help you set the perfect goals from the outset; then pre-plan and adapt as necessary
