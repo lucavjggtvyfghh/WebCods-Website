@@ -1,3 +1,8 @@
+/*MENU  - Hiding icon*/
+.icon {
+  display: none;
+}
+
 /*MOBILE*/
 @media only screen and (max-width: 480px) {
 
