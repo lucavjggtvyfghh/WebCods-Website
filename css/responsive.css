@@ -4,7 +4,7 @@
   /*Responsive menu starts*/
 
   /*Hide all the menu lists except the menu click icon*/
-  ul li:not(.icon) {display: none;}
+  ul#menu:not(.responsive) li:not(.icon) {display: none;}
   /* Display click icon to top left.*/
   ul.responsive li.icon {
     display: inline-block;
